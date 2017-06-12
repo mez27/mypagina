@@ -1,0 +1,98 @@
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	color: #009FFF;
+}
+
+.quitar-float{
+	float:none;
+}
+
+.espacio-arriva{
+	margin-top: 100px;
+}
+
+.espacio-derecha{
+	margin-right: 1em;
+}
+
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+
+.confucius{
+	font-family: cursive;
+	font-size: 10px;
+	text-align: right;
+}
+
+.grande{
+	font-size:5em;
+}
+
+.verde{
+	color: #00887C;
+}
+
+.azul{
+	color: #009FFF;
+}
+
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+
+.no-lista li{
+	list-style-type: none;
+}
+
+.es-gris{
+	background-color:#eee;
+}
+
+.padding-largo{
+	padding: 5px;
+}
+
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.vete-arriva{
+	vertical-align: top;
+}
+
+.mediano{
+	font-size: 2em;
+}
+
+.pequeno{
+	font-size: 1em;
+}
+
+.retraso-1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.retraso-2{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.retraso-3{
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
