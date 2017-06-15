@@ -31,13 +31,14 @@ if (mongoURL == null && process.env.DATABASE_SERVICE_NAME) {
 
   }
 }
+
 var db = null,
     dbDetails = new Object();
 
-var initDb = function(callback) {
+//var initDb = function(callback) {
   if (mongoURL == null) return;
 
-  var mongodb = require('mongodb');
+var mongodb = require('mongodb');
   if (mongodb == null) return;
 
   mongodb.connect(mongoURL, function(err, conn) {
@@ -53,7 +54,7 @@ var initDb = function(callback) {
 
     console.log('Connected to MongoDB at: %s', mongoURL);
   });
-};
+//};
 
 /* Definicion el schema de nuestros productos
  * estructura de los productos
