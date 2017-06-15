@@ -4,9 +4,8 @@ var express         = require('express'),
     multer          = require('multer'),
     cloudinary      = require('cloudinary'),
     method_override = require('method-override');
-    password = "123456789";
-    app = express();
-    //Schema = mongoose.Schema;
+var password        = "123456789";
+var app            = express();
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
     ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0',
@@ -64,6 +63,8 @@ var productosSchemaJson={
   description:String,
   imageUrl:String
 };
+
+var Schema = mongodb.Schema;
 var productsSchema = new Schema(productosSchemaJson);
 
 productsSchema.virtual("imageDefault").get(function(){
