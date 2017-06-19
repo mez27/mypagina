@@ -1,6 +1,6 @@
 {
   "name": "mypagina",
-  "version": "master",
+  "version": "0.0.1",
   "description": "Esta es my primera pagina",
   "main": "server.js",
   "dependencies": {
