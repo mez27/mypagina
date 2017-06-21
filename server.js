@@ -112,5 +112,14 @@ app.get("/",function(req,res){
   res.render("index");
 });
 
+// error handling
+app.use(function(err, req, res, next){
+  console.error(err.stack);
+  res.status(500).send('Something bad happened!');
+});
+
 //app.listen(8080);
 app.listen(port, ip);
+console.log('Server running on http://%s:%s', ip, port);
+
+module.exports = app ;
