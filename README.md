@@ -24,8 +24,9 @@ git push https://github.com/mez27/mypagina.git master
 /Applications/oc status -v
 /Applications/oc new-project mez-co --display-name="nodejs" --description="Mez Node.js app"
 /Applications/oc new-app -f openshift/templates/nodejs.json
-/Applications/oc start-build mez-co --follow
+/Applications/oc start-build mypagina --follow
 /Applications/oc new-app centos/mongodb-26-centos7 -e MONGODB_USER=mez,MONGODB_DATABASE=product,MONGODB_PASSWORD=b23031984,MONGODB_ADMIN_PASSWORD=b23031984
 oc status -v
 /Applications/oc env pods --all --list
+oc get svc
 /Applications/oc set env dc/mez-coc MONGO_URL='mongodb://admin:b23031984@172.30.174.58:27017/mongo_db'
