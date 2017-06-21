@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start": "node server.js"
+   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mez27/mypagina.git"
