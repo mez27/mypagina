@@ -4,20 +4,9 @@
   "description": "Esta es my primera pagina",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "chai": "^4.0.2",
-    "chai-http": "^3.0.0",
-    "cloudinary": "^1.9.0",
-    "ejs": "^2.5.6",
     "express": "^4.15.3",
     "install": "^0.10.1",
-    "method-override": "^2.3.9",
-    "mocha": "^3.4.2",
-    "mongodb": "^2.2.29",
-    "morgan": "^1.8.2",
     "multer": "^1.3.0",
-    "node": "0.0.0",
-    "object-assign": "^4.1.1",
     "pug": "^2.0.0-rc.2"
   },
   "engine": {
